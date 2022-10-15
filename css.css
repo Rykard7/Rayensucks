@@ -1,0 +1,113 @@
+#body {
+  background-color: #141e30;
+  font-family: "Ubuntu", sans-serif;
+}
+#navimg{
+  height: 64px;
+  width: 64px;
+}
+.topnav {
+  background-color: #141e30;
+  overflow: hidden;
+  font-family: sans-serif;
+  padding-right: 550px;
+  box-shadow: 0 10px 30px -10px rgba(255, 255, 255, 0.164);
+
+}
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Ubuntu';
+}
+.topnav a.active {
+  color: white;
+}
+#bigimg{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 15%;
+  top: 15%;
+  animation: Rayensucks 1s ease-in-out 0s 1 normal forwards;
+  
+}
+@keyframes Rayensucks {
+  0% {
+    opacity: 0;
+    transform: translateX(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+#bigimgtext{
+  position: absolute;
+  color: aliceblue;
+  left: 50%;
+  top: 19%;
+  font-size: 60px;
+}
+#p{
+  position: absolute;
+  color: aliceblue;
+  left: 50.5%;
+  top: 40%;
+  font-size: 25px;
+}
+.panels{
+  position: absolute;
+  background-color: aliceblue;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px 1px;
+  background-image:url("fuck2.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  top: 105%;
+  left: 2%;
+}
+#p2{
+  position: absolute;
+  background-color: aliceblue;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px 1px;
+  background-image:url("fuck3.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  top: 105%;
+  left: 25%;
+}
+#p3{
+  position: absolute;
+  background-color: aliceblue;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px 1px;
+  background-image:url("fuck5.png");
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  top: 105%;
+  left: 47%;
+}
+#p4{
+  position: absolute;
+  background-color: #394a66;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 15px 1px;
+  top: 105%;
+  left: 69%;
+  text-align: center;
+  
+}
